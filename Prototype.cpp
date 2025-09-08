@@ -2,7 +2,7 @@
 using namespace std;
 
 class Shape {
-private:
+protected:
     string color;
 public:
     virtual int calcArea() = 0;
