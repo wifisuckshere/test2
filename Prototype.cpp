@@ -12,7 +12,6 @@ public:
 
 class Square : public Shape {
 private:
-    string color;
     int sides;
 public:
     int calcArea() { return sides * sides; }
@@ -23,7 +22,6 @@ public:
 
 class RATriangle : public Shape {
 private:
-    string color;
     int height;
     int width;
 public:
