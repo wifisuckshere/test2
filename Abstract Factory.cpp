@@ -71,7 +71,7 @@ void manufacturer(furnitureFactory& factory, Chair*& c, Table*& t) {
 void askPref(modernFactory& m, victorianFactory& v, Chair*& c, Table*& t) {
     int choice;
     do {
-        cout << "\nModern or Victorian Furniture?\n  1. Modern\n  2. Victorian\nEnter Choice: ";
+        cout << "\nCreate Modern or Victorian Furniture?\n  1. Modern\n  2. Victorian\nEnter Choice: ";
         cin >> choice;
     } while (choice < 1 || choice > 2);
 

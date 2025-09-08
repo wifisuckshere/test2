@@ -92,7 +92,7 @@ public:
     ~doLogistics() {}
     Transport* createTransport() {
         int load;
-        cout << "Enter Load (TONS): ";
+        cout << "Enter Load (Tons): ";
         cin >> load;
 
         Transport* t;
