@@ -6,7 +6,7 @@ private:
     static Singleton* instance;
 
     Singleton() {
-        cout << "Singleton rises!";
+        cout << "Singleton rises!\n";
     }
 public:
     static Singleton* getInstance() {
@@ -17,7 +17,7 @@ public:
     }
 
     void Identify() {
-        cout << "Hello world.";
+        cout << "Hello world.\n";
     }
 };
 
@@ -29,7 +29,7 @@ int main()
     Singleton* s2 = Singleton::getInstance();
 
     s->Identify();
-    s->Identify();
+    s2->Identify();
 
     cout << "\n" << (s2 == s);
 }
